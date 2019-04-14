@@ -1,0 +1,12 @@
+version: "3"
+services:
+  mountebank:
+    container_name: mountebank
+    image: jkris/mountebank:latest
+    volumes:
+    - ./imposters:/imposters
+    ports:
+    - 2525:2525
+    - 8090:8090
+    command: --configfile /imposters/imposters.ejs --allowInjection
+    
