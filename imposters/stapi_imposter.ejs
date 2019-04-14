@@ -1,0 +1,46 @@
+  {
+    "port": 8090,
+    "protocol": "http",
+    "stubs": [
+      {
+        "predicates": [
+          {
+            "deepEquals": {
+              "method": "GET"
+            }
+          },
+          {
+            "deepEquals": {
+              "path": "/api/v1/rest/series/search"
+            }
+          }
+        ],
+        "responses": [
+          {
+            "is": {
+              "statusCode": 200,
+              "headers": {
+                "X-Content-Type-Options": "nosniff",
+                "X-XSS-Protection": "1; mode=block",
+                "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+                "Pragma": "no-cache",
+                "Expires": "0",
+                "X-Frame-Options": "DENY",
+                "Date": "Sun, 14 Apr 2019 14:44:10 GMT",
+                "Content-Type": "application/json;charset=UTF-8",
+                "Transfer-Encoding": "chunked",
+                "Connection": "close"
+              },
+              "body": "{\"page\":{\"pageNumber\":0,\"pageSize\":50,\"numberOfElements\":7,\"totalElements\":7,\"totalPages\":1,\"firstPage\":true,\"lastPage\":true},\"sort\":{\"clauses\":[]},\"series\":[{\"uid\":\"SEMA0000073238\",\"title\":\"Star Trek: Deep Space Nine\",\"abbreviation\":\"DS9\",\"productionStartYear\":1992,\"productionEndYear\":1999,\"originalRunStartDate\":\"1993-01-03\",\"originalRunEndDate\":\"1999-06-02\",\"seasonsCount\":7,\"episodesCount\":173,\"featureLengthEpisodesCount\":3,\"productionCompany\":{\"uid\":\"COMA0000001845\",\"name\":\"Paramount Pictures\"},\"originalBroadcaster\":{\"uid\":\"COMA0000067852\",\"name\":\"Viacom (1971-2005)\"}},{\"uid\":\"SEMA0000062876\",\"title\":\"Star Trek: The Next Generation\",\"abbreviation\":\"TNG\",\"productionStartYear\":1987,\"productionEndYear\":1994,\"originalRunStartDate\":\"1987-09-28\",\"originalRunEndDate\":\"1994-05-23\",\"seasonsCount\":7,\"episodesCount\":176,\"featureLengthEpisodesCount\":2,\"productionCompany\":{\"uid\":\"COMA0000001845\",\"name\":\"Paramount Pictures\"},\"originalBroadcaster\":{\"uid\":\"COMA0000067852\",\"name\":\"Viacom (1971-2005)\"}},{\"uid\":\"SEMA0000201665\",\"title\":\"Star Trek: Discovery\",\"abbreviation\":\"DIS\",\"productionStartYear\":2017,\"productionEndYear\":null,\"originalRunStartDate\":\"2017-09-24\",\"originalRunEndDate\":null,\"seasonsCount\":1,\"episodesCount\":13,\"featureLengthEpisodesCount\":0,\"productionCompany\":{\"uid\":\"COMA0000052430\",\"name\":\"CBS Television Studios\"},\"originalBroadcaster\":{\"uid\":\"COMA0000201662\",\"name\":\"CBS All Access\"}},{\"uid\":\"SEMA0000097474\",\"title\":\"Star Trek: The Original Series\",\"abbreviation\":\"TOS\",\"productionStartYear\":1966,\"productionEndYear\":1969,\"originalRunStartDate\":\"1966-09-08\",\"originalRunEndDate\":\"1969-06-03\",\"seasonsCount\":3,\"episodesCount\":76,\"featureLengthEpisodesCount\":0,\"productionCompany\":{\"uid\":\"COMA0000062916\",\"name\":\"Desilu\"},\"originalBroadcaster\":{\"uid\":\"COMA0000006521\",\"name\":\"NBC\"}},{\"uid\":\"SEMA0000034504\",\"title\":\"Star Trek: The Animated Series\",\"abbreviation\":\"TAS\",\"productionStartYear\":1973,\"productionEndYear\":1974,\"originalRunStartDate\":\"1973-09-08\",\"originalRunEndDate\":\"1974-10-12\",\"seasonsCount\":2,\"episodesCount\":22,\"featureLengthEpisodesCount\":0,\"productionCompany\":{\"uid\":\"COMA0000026671\",\"name\":\"Filmation\"},\"originalBroadcaster\":{\"uid\":\"COMA0000006521\",\"name\":\"NBC\"}},{\"uid\":\"SEMA0000103435\",\"title\":\"Star Trek: Enterprise\",\"abbreviation\":\"ENT\",\"productionStartYear\":2001,\"productionEndYear\":2005,\"originalRunStartDate\":\"2001-09-26\",\"originalRunEndDate\":\"2005-05-13\",\"seasonsCount\":4,\"episodesCount\":97,\"featureLengthEpisodesCount\":1,\"productionCompany\":{\"uid\":\"COMA0000001845\",\"name\":\"Paramount Pictures\"},\"originalBroadcaster\":{\"uid\":\"COMA0000021844\",\"name\":\"UPN\"}},{\"uid\":\"SEMA0000000029\",\"title\":\"Star Trek: Voyager\",\"abbreviation\":\"VOY\",\"productionStartYear\":1995,\"productionEndYear\":2001,\"originalRunStartDate\":\"1995-01-16\",\"originalRunEndDate\":\"2001-05-23\",\"seasonsCount\":7,\"episodesCount\":167,\"featureLengthEpisodesCount\":4,\"productionCompany\":{\"uid\":\"COMA0000001845\",\"name\":\"Paramount Pictures\"},\"originalBroadcaster\":{\"uid\":\"COMA0000021844\",\"name\":\"UPN\"}}]}",
+              "_mode": "text",
+              "_proxyResponseTime": 117
+            },
+            "_behaviors": {
+              "wait": 117
+            }
+          }
+        ]
+      }
+    ]
+  }
+

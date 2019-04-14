@@ -1,0 +1,25 @@
+{
+    "port": 8090,
+    "protocol": "http",
+    "stubs": [
+      {
+        "responses": [
+          {
+            "proxy": {
+              "to": "http://stapi.co/api/v1/rest/series/search",
+              "mode": "proxyOnce",
+              "addWaitBehavior": true,
+              "predicateGenerators": [
+                {
+                  "matches": {
+                    "method": true,
+                    "path": true
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
