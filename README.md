@@ -6,7 +6,7 @@ Mountebank is the first open source tool to provide cross-platform, multi-protoc
 For more information head over to http://www.mbtest.org/
 
 ## Supported `Dockerfile` links
-* [`latest`, `2.0.0` (Dockerfile)](https://github.com/jimmikristensen/mountebank-docker/blob/master/Dockerfile)
+* [`2.0.0` (Dockerfile)](https://github.com/jimmikristensen/mountebank-docker/blob/master/Dockerfile)
  * [`1.8.0` (Dockerfile)](https://github.com/jimmikristensen/mountebank-docker/blob/1.8.0/Dockerfile)
  * [`1.5.1` (Dockerfile)](https://github.com/jimmikristensen/mountebank-docker/blob/1.5.1/Dockerfile)
 
