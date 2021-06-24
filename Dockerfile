@@ -1,6 +1,6 @@
-FROM alpine:3.11
+FROM alpine:3.14
 
-ENV MOUNTEBANK_VERSION=2.2.1
+ENV MOUNTEBANK_VERSION=2.4.0
 
 RUN apk add --update nodejs-lts && \
     apk add --update npm
