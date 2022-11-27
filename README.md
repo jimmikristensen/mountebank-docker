@@ -13,7 +13,7 @@ For more information head over to http://www.mbtest.org/
 * [`1.5.1` (Dockerfile)](https://github.com/jimmikristensen/mountebank-docker/blob/1.5.1/Dockerfile)
 
 ## Docker Registry
-Find all available docker images below. The latest images are build with multi-arch support for linux/amd64 and linux/arm64.
+Find all available docker images below. The latest images are build with multi-arch support for **linux/amd64** and **linux/arm64**.
 https://hub.docker.com/r/jkris/mountebank/tags
 
 ## jkris/mountebank:latest
