@@ -6,11 +6,16 @@ Mountebank is the first open source tool to provide cross-platform, multi-protoc
 For more information head over to http://www.mbtest.org/
 
 ## Supported `Dockerfile` links
-* [`latest`, `2.4.0` (Dockerfile)](https://github.com/jimmikristensen/mountebank-docker/blob/master/Dockerfile)
+* [`latest`, `2.8.1` (Dockerfile)](https://github.com/jimmikristensen/mountebank-docker/blob/master/Dockerfile)
+* [`2.4.0` (Dockerfile)](https://github.com/jimmikristensen/mountebank-docker/blob/2.4.0/Dockerfile)
 * [`2.2.1` (Dockerfile)](https://github.com/jimmikristensen/mountebank-docker/blob/2.2.1/Dockerfile)
 * [`2.0.0` (Dockerfile)](https://github.com/jimmikristensen/mountebank-docker/blob/2.0.0/Dockerfile)
 * [`1.8.0` (Dockerfile)](https://github.com/jimmikristensen/mountebank-docker/blob/1.8.0/Dockerfile)
 * [`1.5.1` (Dockerfile)](https://github.com/jimmikristensen/mountebank-docker/blob/1.5.1/Dockerfile)
+
+## Docker Registry
+Find all available docker images below. The latest images are build with multi-arch support for **linux/amd64** and **linux/arm64**.
+https://hub.docker.com/r/jkris/mountebank/tags
 
 ## jkris/mountebank:latest
 
